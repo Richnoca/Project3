@@ -1,0 +1,5 @@
+For the Prioirity Queue application built into this demonsration is a simple task scheduler using the minimum heap. Each task will be given a name, priority number,  
+and deadline date to complete the task. After the task is added into the list then the heap will organize it so that the most imporant tasks that have been entered  
+appear at the top of the 'Task List' generated. Prioties are given from a number range of 1 thru 5, where 1 is the most important and 5 being the least important task.  
+If two tasks share the same priority number then the Task with the earliest deadline date will appear before the other. This way the Task List is able to prioiritize and list  
+the tasks in order of importance rather than order entered into the list. Scheduler also uses the peek and extract_min functions in the code to show the top most priority in the list.
